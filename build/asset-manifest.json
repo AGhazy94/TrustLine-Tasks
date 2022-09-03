@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TrustLine-Tasks/static/css/main.3a929bda.css",
-    "main.js": "/TrustLine-Tasks/static/js/main.94b1ff43.js",
+    "main.css": "/TrustLine-Tasks/static/css/main.97b37574.css",
+    "main.js": "/TrustLine-Tasks/static/js/main.2c3c410d.js",
     "static/media/Header-BG.png": "/TrustLine-Tasks/static/media/Header-BG.3714ca0f5c6c486232c8.png",
     "static/media/Group Wide.png": "/TrustLine-Tasks/static/media/Group Wide.44190a4c25850f6e617c.png",
     "static/media/Group Small.png": "/TrustLine-Tasks/static/media/Group Small.bd90cb060d68a176414e.png",
@@ -16,11 +16,11 @@
     "static/media/programe-dimmed2.png": "/TrustLine-Tasks/static/media/programe-dimmed2.07240324fef55ec16968.png",
     "static/media/zid-logo.png": "/TrustLine-Tasks/static/media/zid-logo.30b9be95954044bc2639.png",
     "index.html": "/TrustLine-Tasks/index.html",
-    "main.3a929bda.css.map": "/TrustLine-Tasks/static/css/main.3a929bda.css.map",
-    "main.94b1ff43.js.map": "/TrustLine-Tasks/static/js/main.94b1ff43.js.map"
+    "main.97b37574.css.map": "/TrustLine-Tasks/static/css/main.97b37574.css.map",
+    "main.2c3c410d.js.map": "/TrustLine-Tasks/static/js/main.2c3c410d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a929bda.css",
-    "static/js/main.94b1ff43.js"
+    "static/css/main.97b37574.css",
+    "static/js/main.2c3c410d.js"
   ]
 }

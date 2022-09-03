@@ -1,0 +1,54 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.post h3 {
+  font-size: 2rem;
+}
+
+.post p {
+  font-size: 1.5rem;
+}
+
+.post button {
+border: none;
+padding: 1rem 3rem;
+background-color: aqua;
+font-size: 1.2rem;
+border-radius: 2rem;
+font-weight: 600;
+margin: 1rem 0;
+}
+
+.post input {
+  padding: .7rem 5rem;
+  margin: .5rem;
+}
+
+.post input::placeholder {
+  text-align: center;
+  font-weight: 600;
+}
+
+.post button:active, .post button:focus {
+  transform: scale(.95);
+}
+
+.post button:hover {
+  box-shadow: 0 0 0 1px #000;
+}
+
+.postsList {
+  text-align: center;
+  padding: 0 10rem 10rem 10rem;
+}
+
+.postsList h1 {
+  font-size: 3rem;
+  color: darkcyan;
+}

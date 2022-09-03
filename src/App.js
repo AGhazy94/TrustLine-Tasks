@@ -2,16 +2,17 @@ import React from 'react';
 import './App.css';
 import LandingPage from './Components/Task1/LandingPage';
 import { Routes, Route, Link } from 'react-router-dom';
-import JSON from './Components/Task2/JSON';
+import ApiPosts from './Components/Task2/ApiPosts';
 import Start from './Start';
+import Post from './Components/Task2/Post';
 
 function App() {
 	return (
 		<>
-			<nav className='routerNav'>
+			<nav className="routerNav">
 				<ul>
 					<li>
-						<Link to="/">
+						<Link to="/TrustLine-Tasks">
 							<strong>START PAGE</strong>
 						</Link>
 					</li>
@@ -28,9 +29,10 @@ function App() {
 				</ul>
 			</nav>
 			<Routes>
-				<Route path="/" element={<Start />} />
+				<Route path="/TrustLine-Tasks" element={<Start />} exact />
 				<Route path="/landingpage" element={<LandingPage />} />
-				<Route path="/task2" element={<JSON />} />
+				<Route path="/task2" element={<ApiPosts />} />
+				<Route path="/task2/:id" element={<Post />} />
 			</Routes>
 		</>
 	);
