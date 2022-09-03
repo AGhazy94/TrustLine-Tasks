@@ -1,0 +1,119 @@
+.nav {
+	max-width: 100rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 2.5rem;
+}
+
+.nav__btn,
+.nav__btn--lang,
+.nav__btn--login,
+.nav__list--link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__btn {
+	display: flex;
+	align-items: center;
+	gap: 4rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.nav__btn {
+		gap: 3rem;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.nav__btn {
+		gap: 2rem;
+	}
+}
+
+.nav__btn--lang {
+	font-weight: 700;
+	font-size: 1.4rem;
+}
+
+.nav__btn--login {
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: 0.1rem 2.5rem;
+	background-color: #fff;
+	color: #000;
+	border-radius: 2.8rem;
+	transition: all 0.2s;
+}
+
+@media only screen and (max-width: 599px) {
+	.nav__btn--login {
+		padding: 0.05rem 1.5rem;
+	}
+}
+
+.nav__btn--login:hover {
+	background-color: #000;
+	color: #fff;
+	box-shadow: 0 0 3px #fff;
+}
+
+.nav__list {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.nav__list {
+		gap: 4rem;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.nav__list {
+		gap: 2.5rem;
+	}
+}
+
+.nav__list--link {
+	font-weight: 300;
+	font-size: 1.3rem;
+	transition: all 0.2s;
+}
+
+@media only screen and (max-width: 767px) {
+	.nav__list--link {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.nav__list--link {
+		font-size: 1.4rem;
+	}
+}
+
+.nav__list--link:hover {
+	color: #019ffe;
+}
+
+.nav__logo {
+	width: 6.3rem;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+	.nav__logo {
+		width: 7.5rem;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.nav__logo {
+		width: 6.5rem;
+	}
+}

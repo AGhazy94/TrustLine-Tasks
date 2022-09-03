@@ -1,0 +1,55 @@
+*,
+*::after,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Noto Sans Arabic', sans-serif;
+	margin: 0 auto;
+}
+
+.blueLine::before {
+	content: ' ';
+	display: block;
+	width: 4rem;
+	height: 0.45rem;
+	background-color: #019ffe;
+}
+
+@media only screen and (max-width: 767px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	html {
+		font-size: 37.5%;
+	}
+}
+
+.routerNav{
+	background-color: aliceblue;
+}
+
+.routerNav ul{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style-type: none;
+gap: 4rem;
+}
+
+.routerNav ul li a{
+	text-decoration: none;
+	font-size: 2rem;
+	color: #019ffe;
+}
